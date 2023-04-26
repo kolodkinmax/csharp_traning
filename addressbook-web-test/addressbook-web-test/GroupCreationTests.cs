@@ -46,7 +46,7 @@ namespace WebAddressbookTests
             Login("admin","secret");
             GoToGroupsPage();
             InitGroupCreation();
-            FillGroupForm("aa", "bb", "cc");
+            FillGroupForm("aa", "bb", "ccd");
             SumbitGroupCreation();
             ReturnToGroupsPage();
             Logout();

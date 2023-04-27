@@ -36,7 +36,7 @@ namespace SeleniumTests
             {
                 // Ignore errors if unable to close the browser
             }
-            Assert.AreEqual("", verificationErrors.ToString());
+            Assert.That(verificationErrors.ToString(), Is.EqualTo(""));
         }
 
         [Test]
